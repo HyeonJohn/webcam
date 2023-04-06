@@ -136,6 +136,6 @@
       videoGrid.append(video);
     }
 
-    socket.emit('join-room', '<%= roomId %>', '<%= Date.now() %>');
+    socket.emit('join-room', roomId, Date.now());
   </script>
 </html>
